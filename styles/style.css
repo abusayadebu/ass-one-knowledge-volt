@@ -140,3 +140,56 @@ li a{
     display: flex;
     gap: 16px;
 }
+
+/* ---notes section starts here */
+.notes-section{
+    margin-top: 115px;
+    text-align: center;
+}
+.notes-section h3{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.notes-section p{
+    color: #627382;
+}
+
+.card-circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(249, 85, 85, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+    gap: 24px;
+}
+
+.card{
+    padding: 24px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+}
+
+.card h5{
+    font-size: 24px;
+    font-weight: 600;
+} 
+.card p{
+    color: #627382;
+} 
