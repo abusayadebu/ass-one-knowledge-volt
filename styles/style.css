@@ -26,17 +26,17 @@
     margin: 0px 5px;
 }
 
+.container{
+    width: 1360px;
+    margin: 0 auto;
+}
+
 
 
 /* header style here */
 header{
     max-width: 1600px;
     border: 1px solid red;
-    margin: 0 auto;
-}
-
-.container{
-    width: 1360px;
     margin: 0 auto;
 }
 
@@ -193,3 +193,34 @@ li a{
 .card p{
     color: #627382;
 } 
+
+/* ----second brain section style here */
+.second-brain-section{
+    border: 1px solid red;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.second-brain-section h5{
+    text-transform: uppercase;
+    color: #30B868;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.second-brain-section h3{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.second-brain-section p{
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.checklist{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+}
