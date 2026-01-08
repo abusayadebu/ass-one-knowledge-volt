@@ -196,7 +196,7 @@ li a{
 
 /* ----second brain section style here */
 .second-brain-section{
-    border: 1px solid red;
+    margin-top: 120px;
     display: flex;
     gap: 60px;
     align-items: center;
@@ -212,6 +212,7 @@ li a{
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 16px;
+    color: #001931;
 }
 .second-brain-section p{
     color: #627382;
@@ -223,4 +224,32 @@ li a{
     align-items: center;
     gap: 6px;
     margin-bottom: 16px;
+}
+
+/* think section style starts here */
+.think-section{
+    background-color: rgba(247, 246, 242, 1);
+    padding: 80px 40px;
+    border-radius: 12px;
+    text-align: center;
+    margin: 120px auto;
+}
+.think-section p{
+    color: #627382;
+    margin: 16px 0px 24px 0px;
+}
+.think-section h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+}
+
+.access-div{
+    margin-top: 16px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    color: #627382;
+    border: 1px solid red;
 }
