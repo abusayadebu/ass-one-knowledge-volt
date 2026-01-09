@@ -16,6 +16,11 @@
     border: none;
     cursor: pointer;
 }
+
+.common-btn:hover{
+    background-color: #F95555;
+}
+
 .common-btn-two{
     background: none;
     color: white;
@@ -25,6 +30,11 @@
     border: 1px solid white;
     cursor: pointer;
 }
+.common-btn-two:hover{
+    background-color: #30B868;
+    border: none;
+}
+
 .btn-span{
     margin: 0px 5px;
 }
@@ -54,6 +64,13 @@ nav ul{
     justify-content: center;
     align-items: center;
     gap: 32px;
+}
+
+a:hover{
+    color: #008136;
+    text-decoration: underline;
+    text-decoration-color: #008136;
+    text-underline-offset: 5px;
 }
 li a{
     text-decoration: none;
